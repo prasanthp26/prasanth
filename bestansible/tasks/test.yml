@@ -1,0 +1,11 @@
+---
+
+- name: smoke test
+  hosts: localhost
+  gather_facts: false # remove later! speeds up testing
+  become: true
+
+  tasks:
+  - name: smoke test
+    uri:
+      url: http://frontend1.{{ GUID }}.example.opentlc.com

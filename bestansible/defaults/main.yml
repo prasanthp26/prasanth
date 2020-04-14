@@ -1,0 +1,10 @@
+---
+# defaults file for bestansible
+   http_packages:
+      - httpd
+   tomcat_packages:
+      - tomcat
+   postgres_packages:
+      - postgressql
+   haproxy_packages:
+      - haproxy
